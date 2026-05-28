@@ -1,0 +1,20 @@
+[
+    {
+        "name": "mohamed",
+        "customer_id": 12,
+        "accounts": [
+            {
+                "account_number": 12312,
+                "account_type": "saving",
+                "balance": 1000,
+                "transactions": []
+            },
+            {
+                "account_number": 12090,
+                "account_type": "saving",
+                "balance": 500,
+                "transactions": []
+            }
+        ]
+    }
+]

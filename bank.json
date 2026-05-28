@@ -1,0 +1,175 @@
+{
+    "name": "MyBank",
+    "customers": [
+        {
+            "owner": "Admin",
+            "customer_id": 0,
+            "password": "admin123",
+            "role": "admin",
+            "accounts": []
+        },
+        {
+            "owner": "Mohamed",
+            "customer_id": 123,
+            "password": "mohamed123",
+            "role": "customer",
+            "accounts": [
+                {
+                    "account_number": 12345,
+                    "account_type": "saving",
+                    "balance": 2000.0,
+                    "transactions": [
+                        {
+                            "type": "deposit",
+                            "amount": 2000.0,
+                            "date": "2025-01-10"
+                        },
+                        {
+                            "type": "withdraw",
+                            "amount": 500.0,
+                            "date": "2025-01-11"
+                        },
+                        {
+                            "type": "withdraw",
+                            "amount": 500.0,
+                            "date": "2025-01-12"
+                        },
+                        {
+                            "txn_id": "TXN-35379",
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-20"
+                        }
+                    ]
+                },
+                {
+                    "account_number": 66093,
+                    "account_type": "current",
+                    "balance": 2000.0,
+                    "transactions": [
+                        {
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2025-01-10"
+                        },
+                        {
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-12"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "owner": "Ahmed",
+            "customer_id": 33441,
+            "password": "ahmed123",
+            "role": "customer",
+            "accounts": [
+                {
+                    "account_number": 40908,
+                    "account_type": "saving",
+                    "balance": 9000.0,
+                    "transactions": [
+                        {
+                            "type": "deposit",
+                            "amount": 10000.0,
+                            "date": "2025-01-05"
+                        },
+                        {
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-12"
+                        },
+                        {
+                            "txn_id": "TXN-11330",
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-20"
+                        },
+                        {
+                            "txn_id": "TXN-28513",
+                            "type": "withdraw",
+                            "amount": 1000.0,
+                            "date": "2026-05-20"
+                        },
+                        {
+                            "txn_id": "TXN-25604",
+                            "type": "withdraw",
+                            "amount": 1000.0,
+                            "date": "2026-05-20"
+                        },
+                        {
+                            "txn_id": "TXN-10989",
+                            "type": "withdraw",
+                            "amount": 1000.0,
+                            "date": "2026-05-20"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "owner": "sara",
+            "customer_id": 223311,
+            "password": "2233mohamed",
+            "role": "customer",
+            "accounts": [
+                {
+                    "account_number": 58056,
+                    "account_type": "saving",
+                    "balance": 11000.0,
+                    "transactions": [
+                        {
+                            "type": "deposit",
+                            "amount": 10000.0,
+                            "date": "2026-05-12"
+                        },
+                        {
+                            "type": "withdraw",
+                            "amount": 1000.0,
+                            "date": "2026-05-12"
+                        },
+                        {
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-14"
+                        },
+                        {
+                            "txn_id": "TXN-31398",
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-15"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "owner": "deved",
+            "customer_id": 8981,
+            "password": "deved0099",
+            "role": "customer",
+            "accounts": [
+                {
+                    "account_number": 23662,
+                    "account_type": "saving",
+                    "balance": 9000.0,
+                    "transactions": [
+                        {
+                            "type": "deposit",
+                            "amount": 10000.0,
+                            "date": "2026-05-14"
+                        },
+                        {
+                            "type": "withdraw",
+                            "amount": 1000.0,
+                            "date": "2026-05-14"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

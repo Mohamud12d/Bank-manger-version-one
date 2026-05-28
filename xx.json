@@ -1,0 +1,31 @@
+[
+    {
+        "account_number": 12312,
+        "account_type": "saving",
+        "balance": 1500,
+        "transactions": [
+            {
+                "type": "deposit",
+                "amount": 1000,
+                "date": "2026-05-14"
+            },
+            {
+                "type": "withdraw",
+                "amount": 500,
+                "date": "2026-05-14"
+            }
+        ]
+    },
+    {
+        "account_number": 12090,
+        "account_type": "saving",
+        "balance": 1500,
+        "transactions": [
+            {
+                "type": "deposit",
+                "amount": 1000,
+                "date": "2026-05-14"
+            }
+        ]
+    }
+]
