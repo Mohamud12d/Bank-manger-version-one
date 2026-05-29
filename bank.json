@@ -17,7 +17,7 @@
                 {
                     "account_number": 12345,
                     "account_type": "saving",
-                    "balance": 2000.0,
+                    "balance": 3000.0,
                     "transactions": [
                         {
                             "type": "deposit",
@@ -39,6 +39,12 @@
                             "type": "deposit",
                             "amount": 1000.0,
                             "date": "2026-05-20"
+                        },
+                        {
+                            "txn_id": "TXN-52083",
+                            "type": "deposit",
+                            "amount": 1000.0,
+                            "date": "2026-05-28"
                         }
                     ]
                 },
